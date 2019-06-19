@@ -1,7 +1,7 @@
 # Google-Search-Console-Add-Missing-Variations
 Google Search Console Add Missing Variations
 
-When you add a site to Google Search Console it always reminds you to "add all varitaions" - that is http and https, and www and non-www.
+When you add a site to Google Search Console it always reminds you to "add all variations" - that is http and https, and www and non-www.
 
 But what if you have many sites already set up in the console with only one variation?  These days Google may suddenly decide it prefers an alternative, and although rel=canonical and 301 redirects are *supposed* to teach Google which one to use, it doesn't always work.
 

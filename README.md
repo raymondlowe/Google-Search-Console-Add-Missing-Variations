@@ -13,3 +13,19 @@ You still need to do verification, but that may happen automatically, and at lea
 
 The python script requires that you make a google api client secret and save it in a file called, client_secrets.json, in the same folder as the script.
 
+## MCP Server with Authorization Fallback
+
+This repository also includes `mcp_server.py` - a Model Context Protocol (MCP) server implementation with robust authorization fallback mechanisms. This server addresses the issue where some MCP clients cannot send Authorization headers correctly.
+
+### Quick Start
+
+```bash
+# Start with authorization keys
+python3 mcp_server.py --keys your-api-key
+
+# Development mode (no auth required)
+python3 mcp_server.py
+```
+
+For detailed documentation, see [MCP_SERVER_README.md](MCP_SERVER_README.md).
+
